@@ -1,5 +1,16 @@
 # ITSM-ITOM AI Assistant
 
+## Getting Started
+
+To get started, clone the repository and set up your environment:
+
+```sh
+git clone https://github.com/guptaaashutosh/itsm-itom-ai-assistant.git
+cd itsm-itom-ai-assistant
+```
+
+Then follow the steps in the Setup section below to configure and run the project.
+
 An AI-powered incident triage assistant for ITSM/ITOM SaaS platforms, built in Go. It uses Gin for HTTP, pgx for PostgreSQL, Viper for config, and dbmate for migrations. The system exposes a POST /incidents endpoint that uses basic AI logic to assign severity and category, stores the incident, and returns the result.
 
 ## Features
